@@ -1,0 +1,7 @@
+Mpdf:
+    font_dir_name: 'inter'
+    font_I: 'Inter-Light.ttf'
+    font_R: 'Inter-Regular.ttf'
+    format: 'A4-L'
+    orientation: 'L'
+    mode: 'utf-8'

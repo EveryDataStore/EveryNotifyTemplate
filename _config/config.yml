@@ -1,0 +1,32 @@
+app_everynotifytemplate:
+    Menu:
+        Active: true
+        Title: 'PDF-Template'
+        PrimeryMenu: false;
+        AdminMenu: true
+        UserMenu: false
+        Controller: 'EveryNotifyTemplate'
+        Icon: 'fas fa-paint-brush'
+EveryNotifyTemplate\Model\EveryNotifyTemplate:
+    API_Filter_DataStoreID_Map: 'DataStoreID'
+    API_View_Fields:
+        - Slug
+        - Active
+        - Title
+        - Type
+    API_Create_Fields:
+        - Slug
+        - Active
+        - Title
+        - Type
+        - Content
+    API_Edit_Fields:
+        - Active
+        - Title
+        - Type
+        - Content
+    API_Dataobject_Allowed_Realations:
+        - DataStore
+        - Record
+API_Namespace_Class_Map:
+    EveryNotifyTemplate: 'EveryNotifyTemplate\Model\EveryNotifyTemplate'

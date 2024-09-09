@@ -1,0 +1,7 @@
+ar:
+    EveryNotifyTemplate\Model\EveryNotifyTemplate:
+        TITLE: 'الاسم'
+        ACTIVE: 'فعال'
+        DESCRIPTION: 'وصف'
+        TYPE: 'نوع'
+        CONTENT: 'محتوى'

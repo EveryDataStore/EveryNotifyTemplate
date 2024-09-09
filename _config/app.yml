@@ -1,0 +1,9 @@
+---
+Name: everynotifytemplate
+---
+EveryDataStore\Model\DataStore:
+  extensions:
+    - EveryNotifyTemplateExtension\Extension\EveryNotifyTemplateDataStoreExtension
+EveryDataStore\Model\RecordSet\RecordSetItem:
+  extensions:
+    - EveryNotifyTemplateExtension\Extension\EveryNotifyTemplateRecordSetItemExtension

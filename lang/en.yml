@@ -1,0 +1,7 @@
+en:
+    EveryNotifyTemplate\Model\EveryNotifyTemplate:
+        TITLE: 'Title'
+        ACTIVE: 'Active'
+        DESCRIPTION: 'Description'
+        TYPE: 'Type'
+        CONTENT: 'Content'
