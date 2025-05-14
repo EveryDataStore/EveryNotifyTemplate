@@ -1,0 +1,22 @@
+{
+  "name": "everydatastore/everynotifytemplate",
+  "description":"A submodule of EveryDataStore ECM that enables creating customizable templates for printing and reporting. Templates can include data from single or multiple RecordSetItems.",
+  "type": "silverstripe-vendormodule",
+  "homepage": "https://everydatastore.org/en/apps/everynotifytemplate",
+  "authors": [
+    {
+      "name": "EveryDataStore GmbH"
+    }
+  ],
+  "require": {
+    "php": "^8.1",
+    "everydatastore/everydatastorebackend": "^1.5.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "EveryNotifyTemplate\\": "src/"
+    }
+  },
+  "minimum-stability": "stable",
+  "prefer-stable": true
+}

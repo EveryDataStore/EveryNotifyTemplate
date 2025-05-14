@@ -22,3 +22,4 @@ Print templates can be used to create a template for one record, but also to cre
 [EveryDataStore Frontend](https://github.com/EveryDataStore/EveryDataStoreFrontend)<br/>
 
 
+
